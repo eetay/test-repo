@@ -1,5 +1,5 @@
 // main.js
-var React = require('react');
+import React, { Component } from 'react';
 var ReactDOM = require('react-dom');
 
 ReactDOM.render(
