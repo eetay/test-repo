@@ -4,7 +4,7 @@
   "description": "test-repo",
   "main": "server.js",
   "scripts": {
-    "test": "browserify -t [ babelify ] main.js -o public/generated/bundle.js",
+    "test": "browserify main.js -o public/generated/bundle.js",
     "start": "node server.js"
   },
   "repository": {
@@ -17,7 +17,12 @@
     "url": "https://github.com/eetay/test-repo/issues"
   },
   "homepage": "https://github.com/eetay/test-repo#readme",
-  "dependencies": {
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+ "dependencies": {
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.2.0",
     "react": "^0.14.7",
