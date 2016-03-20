@@ -1,0 +1,20 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "test-repo",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eetay/test-repo.git"
+  },
+  "author": "Eetay Natan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eetay/test-repo/issues"
+  },
+  "homepage": "https://github.com/eetay/test-repo#readme"
+}
