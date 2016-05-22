@@ -8,10 +8,12 @@ var errorFunc = function(err) {
 }
 
 app.get('/', function(req, res){
+  console.log(req.url)
   res.sendFile('index.html', options, errorFunc);
 });
 
 app.get('/*', function(req, res){
+  console.log(req.url)
   res.sendFile(req.url, options, errorFunc);
 });
 app.listen(3000);
