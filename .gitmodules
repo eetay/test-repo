@@ -1,0 +1,3 @@
+[submodule "bin/git-utils"]
+	path = bin/git-utils
+	url = git@github.com:eetay/git-utils
